@@ -1,2 +1,4 @@
-# Devnagri_Dataset_Character_Recognition
-Devnagri(Hindi) Language Charater Recognition
+# Description of the model
+Devnagri(Hindi) Language Charater Recognition(CNN model, CNN+SVM hybrid Model)
+
+So, as a part of project for the course of Machine Learning, we chose the character recognition on Devnagri Language. As many better resources are available for other languages, we decided to use Hindi Language for our project. We had a very rich dataset of 92000 images, available on both UCI and Kaggle. Now, it is obvious to use CNN(Convonutional Neural Network) for which we got accuracy of 98.14%, now if you use CNNs you don't need to do feature extraction as NNs are powerful enough to do that by themselves but for other method feature extraction is one thing that you should and must do in order to achieve higher accuracy. Now, SVM is a very powerful classification algorithm and we wanted to use in hope of high accuracy,so we used a hybrid model of both CNN and SVM and what we did for that is, except the last layer of CNN we took all other layers and it's parametres and gave it as an input to SVM,by doing this we didn't have to do feature extraction externally and when we got the results, the accuracy we got was 98.84%. Here are the code for both of these.
